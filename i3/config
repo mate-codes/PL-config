@@ -110,6 +110,9 @@ bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection c
 # focus the child container
 #bindsym $mod+d focus child
 
+# picom
+exec picom
+
 # polybar
 exec polybar
 
